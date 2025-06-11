@@ -695,6 +695,9 @@ footer {
     .skills-grid {
         grid-template-columns: 1fr 1fr;
     }
+    .project-card {
+        min-width: 0;
+    }
 }
 @media (max-width: 650px) {
     .about-stats,
@@ -714,5 +717,46 @@ footer {
     }
     .contact-form, .contact-info {
         padding: 1.2rem;
+    }
+    .project-card {
+        padding: 0.5rem 0.5rem;
+        min-width: 0;
+    }
+    .project-content {
+        padding: 1.2rem 0.5rem 0.8rem 0.5rem;
+    }
+    .project-title {
+        font-size: 1rem;
+    }
+    .project-header {
+        font-size: 1.5rem !important;
+        height: 70px !important;
+    }
+    .project-header i {
+        font-size: 1.2em;
+    }
+    .hero-socials {
+        flex-wrap: wrap;
+        gap: 0.6em;
+        justify-content: center;
+        font-size: 1em;
+        margin-bottom: 1.2em;
+    }
+    .hero-socials a {
+        width: 2em;
+        height: 2em;
+        font-size: 1em;
+        margin: 0.2em 0.2em;
+    }
+    .social-links {
+        flex-wrap: wrap;
+        gap: 0.6em;
+        justify-content: center;
+    }
+    .social-link {
+        width: 38px;
+        height: 38px;
+        font-size: 1em;
+        margin: 0.2em 0.2em;
     }
 }
